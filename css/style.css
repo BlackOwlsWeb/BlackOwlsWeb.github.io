@@ -39,14 +39,14 @@ header{
     line-height: 1.3rem;
 }
 .logo img{
-    width: 60px;
-    height: 60px;
+    width: 100px;
+    height: 100px;
 }
 
 .logo p{
     width: 100%;
     margin-left: 5px;
-    margin-right: 25px;
+    margin-right: 50px;
     font-size: 20px;
 }
 .logo .fas{
@@ -144,7 +144,7 @@ ul.navbar li img{
     content: '';
     width: 400px;
     height: 400px;
-    background: url(../images/hollow.avif);
+    background: url(../images/b.avif);
     background-size: cover;
     background-position: center;
     position: absolute;
@@ -343,7 +343,7 @@ ul.navbar li img{
 }
 
 .ser-1{
-    background: url(../images/yourname.webp);
+    background: url(../images/yourname.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -358,17 +358,17 @@ ul.navbar li img{
     background-position: center;
 }
 .ser-4{
-    background: url(../images/naruto.jpg);
+    background: url(../images/cyberpunk.jpg);
     background-size: cover;
     background-position: center;
 }
 .ser-5{
-    background: url(../images/naruto.jpg);
+    background: url(../images/arcane.jpg);
     background-size: cover;
     background-position: center;
 }
 .ser-6{
-    background: url(../images/naruto.jpg);
+    background: url(../images/marvel.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -449,6 +449,11 @@ ul.navbar li img{
     background-size: cover;
     background-position: center;
 }
+.p-image-4{
+    background: url(../images/joseba.gif);
+    background-size: cover;
+    background-position: center;
+}
 /* section 3 starts here */
 
 .section-3{
@@ -483,7 +488,7 @@ ul.navbar li img{
 }
 .feedback-desc{
     width: 300px;
-    height: 300px;
+    height: 400px;
     background: rgba(0, 0, 0, 0.767);
     padding: 10px;
     color: #fff;
@@ -494,11 +499,14 @@ ul.navbar li img{
     font-size: 30px;
 }
 .feedback-desc img{
-    width: 75px;
-    height: 75px;
-    margin-top: -15px;
+    width:70px;
+    height:70px;
     margin-left: 100px;
     border-radius: 50%;
+}
+.feedback-desc h4{
+    margin-left: 100px;
+    margin-bottom: 10px;
 }
 .f-img-2{
     background: url(../images/image9.jpg);
